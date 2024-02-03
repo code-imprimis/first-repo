@@ -39,6 +39,6 @@ let server = http.createServer(function(req, res){
     }
 });
 
-server.listen(process.env.PORT, function(){
-    console.log('port opened at ' + process.env.PORT);
+server.listen(3000, function(){
+    console.log('port opened at ' + 3000);
 });
