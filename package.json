@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/code-imprimis/first-repo#readme",
   "dependencies": {
-    "dotenv": "^16.4.1"
+    "dotenv": "^16.4.1",
+    "json-server": "^1.0.0-alpha.23"
   }
 }
