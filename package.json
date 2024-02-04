@@ -1,0 +1,25 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "Learning frontend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-imprimis/first-repo.git"
+  },
+  "author": "Pratham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-imprimis/first-repo/issues"
+  },
+  "homepage": "https://github.com/code-imprimis/first-repo#readme",
+  "dependencies": {
+    "dotenv": "^16.4.1"
+  }
+}

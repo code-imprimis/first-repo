@@ -1,5 +1,8 @@
-const http = require('http');
-const fs = require('fs');
+import http from 'http';
+import fs from 'fs';
+import dotenv from 'dotenv';
+
+dotenv.config('./.env');
 
 let server = http.createServer(function(req, res){
     console.log('Request came on url: ', req.url, ' with method:', req.method);
@@ -39,6 +42,6 @@ let server = http.createServer(function(req, res){
     }
 });
 
-server.listen(3000, function(){
-    console.log('port opened at ' + 3000);
+server.listen(process.env.PORT, function(){
+    console.log('port opened at ' + process.env.PORT);
 });
